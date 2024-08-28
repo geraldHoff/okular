@@ -83,3 +83,11 @@ Available options are `desktop`, `mobile`, and `both`.
 
 The Okular project uses clang-format to enforce source code formatting.
 See [README.clang_format](https://invent.kde.org/graphics/okular/-/blob/master/README.clang-format) for more information.
+
+### Cmake
+sudo apt-get install build-essential cmake extra-cmake-modules kinit-dev libkf5parts-dev libkf5kio-dev libkf5activities-dev libkf5windowsystem-dev libkf5config-dev libkf5doctools-dev libkf5textwidgets-dev
+mkdir build
+cd build
+cmake ..
+make
+./okular
